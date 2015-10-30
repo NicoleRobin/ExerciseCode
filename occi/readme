@@ -1,0 +1,13 @@
+testOcci
+测试OCCI库连接Oracle数据库读取数据的性能。
+
+使用方法：
+testOcci -p/n user pass constr sql
+-p 		表示将读取的数据输出到终端屏幕
+-n 		表示不输出
+user 	用户名
+pass	密码
+constr	连接字符串
+sql 	执行的SQL语句，这里只适合select语句
+例如：
+./testOcci -p zjw 123456 //192.168.0.21/ORCL "select * from ZJW_STU"
