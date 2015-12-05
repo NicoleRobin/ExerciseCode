@@ -1,0 +1,2 @@
+/data/home/robin/test/cmake/6/build/bin/CMakeFiles/hello.dir
+/data/home/robin/test/cmake/6/build/lib/CMakeFiles/libhello.dir
