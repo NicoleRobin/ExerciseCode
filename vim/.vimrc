@@ -31,6 +31,5 @@ set laststatus=2 		" 总是显示状态栏
 filetype on 			" 开启文件类型侦测
 set showmatch 			" 高亮匹配的括号
 set matchtime=1			" 匹配括号高亮时间（单位是十分之一秒）
-
-" 设置查找高亮
-set hlsearch
+set hlsearch        " 设置查找高亮
+set pastetoggle=<F10> " 设置切换粘贴模式快捷键
