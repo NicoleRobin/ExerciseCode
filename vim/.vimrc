@@ -33,3 +33,5 @@ set showmatch 			" 高亮匹配的括号
 set matchtime=1			" 匹配括号高亮时间（单位是十分之一秒）
 set hlsearch        " 设置查找高亮
 set pastetoggle=<F10> " 设置切换粘贴模式快捷键
+
+" set list : 显示空白格
