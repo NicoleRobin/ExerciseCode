@@ -35,3 +35,4 @@ set hlsearch        " 设置查找高亮
 set pastetoggle=<F10> " 设置切换粘贴模式快捷键
 
 " set list : 显示空白格
+" ctrl+s 锁屏 ctrl+q 解锁
