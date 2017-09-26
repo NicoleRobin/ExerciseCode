@@ -32,7 +32,10 @@ filetype on 			" 开启文件类型侦测
 set showmatch 			" 高亮匹配的括号
 set matchtime=1			" 匹配括号高亮时间（单位是十分之一秒）
 set hlsearch        " 设置查找高亮
-set pastetoggle=<F10> " 设置切换粘贴模式快捷键
+set pastetoggle=<F10> " 设置切换粘贴模式快捷键 set paste/nopaste
 
 " set list : 显示空白格
-" ctrl+s 锁屏 ctrl+q 解锁
+" ctrl+s ：锁屏 ctrl+q 解锁
+" ctrl+f/b ：向前/后一页
+" ctrl+d/u ：向前/后半页
+" ctrl+e/y ：向前/后一行
