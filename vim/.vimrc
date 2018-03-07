@@ -11,7 +11,7 @@ set softtabstop=4
 set shiftwidth=4
 
 set smarttab 			" 在行和段开始处使用制表符
-set noexpandtab 		" 不要用空格代替制表符
+set expandtab 		" 用空格代替制表符
 set tabstop=4 			" 设置tab的宽度为4
 colorscheme molokai		" 设置配置方案
 set cursorline 			" 突出显示当前行
