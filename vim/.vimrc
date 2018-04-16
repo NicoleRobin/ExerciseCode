@@ -49,3 +49,15 @@ set pastetoggle=<F10> " 设置切换粘贴模式快捷键 set paste/nopaste
 " T + 字符 ：为 t + 字符的反向
 " 以上4个命令也可以接受数字，表示执行几次操作
 " % ：找到括号
+
+" =========================键映射==============================================
+" 缩进
+nmap <tab> V>
+" nmap <s-tab> V<
+" 窗口跳转 
+map <C-H> <C-W>h
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
+" 全选
+nnoremap <c-a> ggVG
